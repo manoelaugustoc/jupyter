@@ -1,0 +1,14 @@
+[2020-08-04 19:52:01:0793] Adobe ARM 1.824.38.2551 logging started.
+[2020-08-04 19:52:01:0836] Too soon to check for arm update
+[2020-08-04 19:52:01:0846] ProductCode: {AC76BA86-7AD7-1046-7B44-AC0F074E4100}
+[2020-08-04 19:52:01:0846] ProductName: Adobe Acrobat Reader DC - Português
+[2020-08-04 19:52:01:0846] ProductVersion: 20.009.20074
+[2020-08-04 19:52:01:0846] ProductUACPatching: enabled
+[2020-08-04 19:52:01:0972] Using registered preference AUTO_ALL
+[2020-08-04 19:52:01:0972] Last check for updates not expired
+[2020-08-04 19:52:01:0972]    Error Code: 120300
+[2020-08-04 19:52:01:0974] Using registered preference AUTO_ALL
+[2020-08-04 19:52:01:0975] Last check for updates not expired
+[2020-08-04 19:52:01:0975]    Error Code: 120300
+[2020-08-04 19:52:02:0179] ARM returns ERROR_SUCCESS
+[2020-08-04 19:52:02:0179] Adobe ARM 1.824.38.2551 logging finished.

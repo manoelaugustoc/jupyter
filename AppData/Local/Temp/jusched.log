@@ -1,0 +1,284 @@
+[2020/08/04 19:41:14.393, jusched.exe (PID: 14384, TID: 14388), AllUtils.cpp:124 (logit)]
+	INFO: **************** Running jusched ****************
+
+[2020/08/04 19:46:14.551, jusched.exe (PID: 14384, TID: 14388), AllUtils.cpp:124 (logit)]
+	INFO: Started UpdateChecker process Successfully:C:\Program Files (x86)\Common Files\Java\Java Update\jucheck.exe
+
+[2020/08/04 19:46:14.552, jusched.exe (PID: 14384, TID: 14388), AllUtils.cpp:124 (logit)]
+	INFO: JavaUpdate : LastFinishTime is after LastScheduledTime, sleeping until next schedule Time: Thu Aug 06 16:12:00 2020
+
+[2020/08/04 19:46:14.553, jusched.exe (PID: 14384, TID: 14388), AllUtils.cpp:124 (logit)]
+	INFO: JavaUpdate NextSchedTime=Thu Aug 06 16:12:00 2020
+JavaUpdatelastSchedTime=Thu Jul 30 16:12:00 2020
+JavaUpdatenextSchedTime=Thu Aug 06 16:12:00 2020
+JavaUpdatesleeptime (sec=159946, hours=44, days=1.85)
+actual sleep time=159946000 msecs (44:25:46) for JavaUpdate
+
+[2020/08/04 19:46:14.571, jucheck.exe (PID: 12420, TID: 19660), UpdateChecker.cpp:118 (WinMain)]
+	INFO: UpdateChecker.cpp MOS_MODE=0
+[2020/08/04 19:46:14.572, jucheck.exe (PID: 12420, TID: 19660), UpdateConf.cpp:886 (UpdateSSV)]
+	INFO: UpdateSSV() - Begin Update
+[2020/08/04 19:46:14.573, jucheck.exe (PID: 12420, TID: 19660), JavaEnvironment.cpp:473 (JavaEnvironment::detect)]
+	TRACE: Entering JavaEnvironment::detect
+[2020/08/04 19:46:14.580, jucheck.exe (PID: 12420, TID: 19660), JavaEnvironment.cpp:490 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0_251; arch=32; productCode={26A24AE4-039D-4CA4-87B4-2F32180251F0}; type=0
+[2020/08/04 19:46:14.580, jucheck.exe (PID: 12420, TID: 19660), JavaEnvironment.cpp:140 (`anonymous-namespace'::detectHomeDir)]
+	TRACE: Find home dir of {26A24AE4-039D-4CA4-87B4-2F32180251F0} Java installation
+[2020/08/04 19:46:14.632, jucheck.exe (PID: 12420, TID: 19660), JavaEnvironment.cpp:304 (`anonymous-namespace'::detectFullVersion)]
+	TRACE: Detect full version of {26A24AE4-039D-4CA4-87B4-2F32180251F0} Java installation
+[2020/08/04 19:46:14.632, jucheck.exe (PID: 12420, TID: 19660), JavaEnvironment.cpp:215 (`anonymous-namespace'::detectFullVersionFromMsi)]
+	TRACE: detectFullVersionFromMsi({26A24AE4-039D-4CA4-87B4-2F32180251F0})
+[2020/08/04 19:46:14.651, jucheck.exe (PID: 12420, TID: 19660), JavaEnvironment.cpp:328 (`anonymous-namespace'::detectJreMode)]
+	TRACE: Detect mode of {26A24AE4-039D-4CA4-87B4-2F32180251F0} Java installation
+[2020/08/04 19:46:14.652, jucheck.exe (PID: 12420, TID: 19660), JavaEnvironment.cpp:452 (`anonymous-namespace'::getInstalledJava)]
+	TRACE: InstalledJava(1.8.0_251-b08|1.8.0_251-b08|JRE|32bit|C:\Program Files (x86)\Java\jre1.8.0_251|{26A24AE4-039D-4CA4-87B4-2F32180251F0}|10)
+[2020/08/04 19:46:14.676, jucheck.exe (PID: 12420, TID: 19660), JavaEnvironment.cpp:0 (JavaEnvironment::detect)]
+	TRACE: Exiting JavaEnvironment::detect (entered at JavaEnvironment.cpp:473)
+[2020/08/04 19:46:14.680, jucheck.exe (PID: 12420, TID: 19660), Executor.cpp:147 (Executor::startExecution)]
+	INFO: Executor.exec(): "C:\Program Files (x86)\Java\jre1.8.0_251\bin\javaws.exe" -J-Djdk.disableLastUsageTracking=true -SSVBaselineUpdate
+[2020/08/04 19:46:14.788, jucheck.exe (PID: 12420, TID: 19660), Executor.cpp:181 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): WaitForSingleObject exited with code 0
+[2020/08/04 19:46:14.788, jucheck.exe (PID: 12420, TID: 19660), Executor.cpp:195 (Executor::finishExecution)]
+	INFO: Executor.finishExecution(): ExitCode = 0
+[2020/08/04 19:46:14.789, jucheck.exe (PID: 12420, TID: 19660), UpdateConf.cpp:923 (UpdateSSV)]
+	INFO: UpdateSSV() - Update Successful
+[2020/08/04 19:46:14.789, jucheck.exe (PID: 12420, TID: 19660), AllUtils.cpp:124 (logit)]
+	INFO: SetJavaUpdateStringKey was called with a NULL value for the key, so defaulting to trying jucheck key
+[2020/08/04 19:46:14.795, jucheck.exe (PID: 12420, TID: 19660), JavaEnvironment.cpp:473 (JavaEnvironment::detect)]
+	TRACE: Entering JavaEnvironment::detect
+[2020/08/04 19:46:14.798, jucheck.exe (PID: 12420, TID: 19660), JavaEnvironment.cpp:490 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0_251; arch=32; productCode={26A24AE4-039D-4CA4-87B4-2F32180251F0}; type=0
+[2020/08/04 19:46:14.798, jucheck.exe (PID: 12420, TID: 19660), JavaEnvironment.cpp:140 (`anonymous-namespace'::detectHomeDir)]
+	TRACE: Find home dir of {26A24AE4-039D-4CA4-87B4-2F32180251F0} Java installation
+[2020/08/04 19:46:14.804, jucheck.exe (PID: 12420, TID: 19660), JavaEnvironment.cpp:304 (`anonymous-namespace'::detectFullVersion)]
+	TRACE: Detect full version of {26A24AE4-039D-4CA4-87B4-2F32180251F0} Java installation
+[2020/08/04 19:46:14.805, jucheck.exe (PID: 12420, TID: 19660), JavaEnvironment.cpp:215 (`anonymous-namespace'::detectFullVersionFromMsi)]
+	TRACE: detectFullVersionFromMsi({26A24AE4-039D-4CA4-87B4-2F32180251F0})
+[2020/08/04 19:46:14.806, jucheck.exe (PID: 12420, TID: 19660), JavaEnvironment.cpp:328 (`anonymous-namespace'::detectJreMode)]
+	TRACE: Detect mode of {26A24AE4-039D-4CA4-87B4-2F32180251F0} Java installation
+[2020/08/04 19:46:14.807, jucheck.exe (PID: 12420, TID: 19660), JavaEnvironment.cpp:452 (`anonymous-namespace'::getInstalledJava)]
+	TRACE: InstalledJava(1.8.0_251-b08|1.8.0_251-b08|JRE|32bit|C:\Program Files (x86)\Java\jre1.8.0_251|{26A24AE4-039D-4CA4-87B4-2F32180251F0}|10)
+[2020/08/04 19:46:14.833, jucheck.exe (PID: 12420, TID: 19660), JavaEnvironment.cpp:0 (JavaEnvironment::detect)]
+	TRACE: Exiting JavaEnvironment::detect (entered at JavaEnvironment.cpp:473)
+[2020/08/04 19:46:14.833, jucheck.exe (PID: 12420, TID: 19660), JavaEnvironment.cpp:473 (JavaEnvironment::detect)]
+	TRACE: Entering JavaEnvironment::detect
+[2020/08/04 19:46:14.837, jucheck.exe (PID: 12420, TID: 19660), JavaEnvironment.cpp:490 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=1.8.0_251; arch=32; productCode={26A24AE4-039D-4CA4-87B4-2F32180251F0}; type=0
+[2020/08/04 19:46:14.862, jucheck.exe (PID: 12420, TID: 19660), JavaEnvironment.cpp:0 (JavaEnvironment::detect)]
+	TRACE: Exiting JavaEnvironment::detect (entered at JavaEnvironment.cpp:473)
+[2020/08/04 19:46:14.862, jucheck.exe (PID: 12420, TID: 19660), UpdateCommon.cpp:375 (GetVersionXmlFileURL)]
+	INFO: Versions to check: 
+  - 1.8.0_251-b08
+
+[2020/08/04 19:46:14.864, jucheck.exe (PID: 12420, TID: 19660), NetUtils.cpp:123 (HttpConnection::connectImpl)]
+	TRACE: HttpConnection::connect(url=https://javadl-esd-secure.oracle.com/update/1.8.0/map-1.8.0.xml)
+[2020/08/04 19:46:15.419, jucheck.exe (PID: 12420, TID: 19660), NetUtils.cpp:248 (HttpConnection::connectImpl)]
+	TRACE: HttpConnection::connect succeeded, status: 200, size: 20239 bytes
+[2020/08/04 19:46:15.420, jucheck.exe (PID: 12420, TID: 19660), Locales.cpp:318 (Locale::preferredLanguages)]
+	INFO: PreferredUILanguages: Vista+
+[2020/08/04 19:46:15.427, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:153 (UpdateJudge::readXml)]
+	TRACE: UpdateJudge::readXml(ver=1.8.0_251-b08; arch=amd64; os=win10; country=YY; locale=pt_BR)
+[2020/08/04 19:46:15.430, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping)=0x0
+[2020/08/04 19:46:15.431, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[2])=0x0
+[2020/08/04 19:46:15.431, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[3])=0x0
+[2020/08/04 19:46:15.432, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[4])=0x0
+[2020/08/04 19:46:15.433, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[5])=0x0
+[2020/08/04 19:46:15.434, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[6])=0x0
+[2020/08/04 19:46:15.434, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[7])=0x0
+[2020/08/04 19:46:15.435, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[8])=0x0
+[2020/08/04 19:46:15.436, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[9])=0x0
+[2020/08/04 19:46:15.436, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[10])=0x0
+[2020/08/04 19:46:15.437, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[11])=0x0
+[2020/08/04 19:46:15.437, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[12])=0x0
+[2020/08/04 19:46:15.438, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[13])=0x0
+[2020/08/04 19:46:15.438, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[14])=0x0
+[2020/08/04 19:46:15.439, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[15])=0x0
+[2020/08/04 19:46:15.439, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[16])=0x0
+[2020/08/04 19:46:15.440, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[17])=0x0
+[2020/08/04 19:46:15.440, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[18])=0x0
+[2020/08/04 19:46:15.441, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[19])=0x0
+[2020/08/04 19:46:15.442, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[20])=0x0
+[2020/08/04 19:46:15.442, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[21])=0x0
+[2020/08/04 19:46:15.443, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[22])=0x0
+[2020/08/04 19:46:15.444, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[23])=0x0
+[2020/08/04 19:46:15.444, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[24])=0x0
+[2020/08/04 19:46:15.445, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[25])=0x0
+[2020/08/04 19:46:15.445, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[26])=0x0
+[2020/08/04 19:46:15.446, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[27])=0x0
+[2020/08/04 19:46:15.447, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[28])=0x0
+[2020/08/04 19:46:15.448, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[29])=0x0
+[2020/08/04 19:46:15.448, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[30])=0x0
+[2020/08/04 19:46:15.449, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[31])=0x0
+[2020/08/04 19:46:15.450, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[32])=0x0
+[2020/08/04 19:46:15.451, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[33])=0x0
+[2020/08/04 19:46:15.452, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[34])=0x0
+[2020/08/04 19:46:15.453, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[35])=0x0
+[2020/08/04 19:46:15.454, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[36])=0x0
+[2020/08/04 19:46:15.455, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[37])=0x0
+[2020/08/04 19:46:15.456, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[38])=0x0
+[2020/08/04 19:46:15.457, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[39])=0x0
+[2020/08/04 19:46:15.458, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[40])=0x0
+[2020/08/04 19:46:15.459, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[41])=0x0
+[2020/08/04 19:46:15.460, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[42])=0x0
+[2020/08/04 19:46:15.461, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[43])=0x0
+[2020/08/04 19:46:15.462, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[44])=0x400
+[2020/08/04 19:46:15.463, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[45])=0x0
+[2020/08/04 19:46:15.464, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[46])=0x0
+[2020/08/04 19:46:15.464, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[47])=0x0
+[2020/08/04 19:46:15.465, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[48])=0x0
+[2020/08/04 19:46:15.466, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[49])=0x0
+[2020/08/04 19:46:15.466, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[50])=0x0
+[2020/08/04 19:46:15.467, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[51])=0x0
+[2020/08/04 19:46:15.469, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[52])=0x0
+[2020/08/04 19:46:15.470, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[53])=0x0
+[2020/08/04 19:46:15.471, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[54])=0x0
+[2020/08/04 19:46:15.472, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[55])=0x0
+[2020/08/04 19:46:15.472, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[56])=0x0
+[2020/08/04 19:46:15.473, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[57])=0x0
+[2020/08/04 19:46:15.474, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[58])=0x0
+[2020/08/04 19:46:15.474, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[59])=0x0
+[2020/08/04 19:46:15.475, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[60])=0x0
+[2020/08/04 19:46:15.476, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[61])=0x0
+[2020/08/04 19:46:15.477, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[62])=0x0
+[2020/08/04 19:46:15.478, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[63])=0x0
+[2020/08/04 19:46:15.479, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[64])=0x0
+[2020/08/04 19:46:15.480, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[65])=0x0
+[2020/08/04 19:46:15.481, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[66])=0x0
+[2020/08/04 19:46:15.482, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[67])=0x0
+[2020/08/04 19:46:15.483, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[68])=0x0
+[2020/08/04 19:46:15.484, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[69])=0x0
+[2020/08/04 19:46:15.486, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[70])=0x0
+[2020/08/04 19:46:15.486, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[71])=0x0
+[2020/08/04 19:46:15.487, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[72])=0x0
+[2020/08/04 19:46:15.488, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[73])=0x0
+[2020/08/04 19:46:15.489, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[74])=0x0
+[2020/08/04 19:46:15.490, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[75])=0x0
+[2020/08/04 19:46:15.491, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[76])=0x0
+[2020/08/04 19:46:15.492, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[77])=0x0
+[2020/08/04 19:46:15.493, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[78])=0x0
+[2020/08/04 19:46:15.494, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[79])=0x0
+[2020/08/04 19:46:15.495, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[80])=0x0
+[2020/08/04 19:46:15.496, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[81])=0x0
+[2020/08/04 19:46:15.497, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[82])=0x0
+[2020/08/04 19:46:15.498, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[83])=0x0
+[2020/08/04 19:46:15.500, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[84])=0x0
+[2020/08/04 19:46:15.501, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[85])=0x0
+[2020/08/04 19:46:15.502, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[86])=0x0
+[2020/08/04 19:46:15.503, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[87])=0x0
+[2020/08/04 19:46:15.504, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[88])=0x0
+[2020/08/04 19:46:15.505, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[89])=0x0
+[2020/08/04 19:46:15.506, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[90])=0x0
+[2020/08/04 19:46:15.507, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[91])=0x0
+[2020/08/04 19:46:15.508, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[92])=0x0
+[2020/08/04 19:46:15.510, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:166 (UpdateJudge::readXml)]
+	TRACE: calculateMatchScore(/java-update-map/mapping[93])=0x0
+[2020/08/04 19:46:15.510, jucheck.exe (PID: 12420, TID: 19660), UpdateJudge.cpp:187 (UpdateJudge::readXml)]
+	TRACE: UpdateJudge::readXml(ver=1.8.0_251-b08; arch=amd64; os=win10; country=YY; locale=pt_BR)=https://javadl-esd-secure.oracle.com/update/1.8.0/a4634525489241b9a9e1aa73d9e118e6/au-descriptor-1.8.0_261-b12.xml
+[2020/08/04 19:46:15.511, jucheck.exe (PID: 12420, TID: 19660), UpdateCommon.cpp:404 (GetVersionXmlFileURL)]
+	INFO: https://javadl-esd-secure.oracle.com/update/1.8.0/a4634525489241b9a9e1aa73d9e118e6/au-descriptor-1.8.0_261-b12.xml
+[2020/08/04 19:46:15.512, jucheck.exe (PID: 12420, TID: 19660), Registry.cpp:403 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\LastUDCheckTime]=REG_SZ[Tue, 04 Aug 2020 22:46:15 GMT]
+[2020/08/04 19:46:15.512, jucheck.exe (PID: 12420, TID: 19660), NetUtils.cpp:123 (HttpConnection::connectImpl)]
+	TRACE: HttpConnection::connect(url=https://javadl-esd-secure.oracle.com/update/1.8.0/a4634525489241b9a9e1aa73d9e118e6/au-descriptor-1.8.0_261-b12.xml)
+[2020/08/04 19:46:15.631, jucheck.exe (PID: 12420, TID: 19660), NetUtils.cpp:248 (HttpConnection::connectImpl)]
+	TRACE: HttpConnection::connect succeeded, status: 200, size: 6830 bytes
+[2020/08/04 19:46:15.644, jucheck.exe (PID: 12420, TID: 19660), UpdateManager.cpp:185 (CUpdateManager::CheckXmlFiles)]
+	ERROR: Exception with message 'Version.h(85) at VersionDetails::Base<6,struct JavaVersionDetails::Parser,1>::init(): Failed to parse [] version string. The string is too short' caught
+[2020/08/04 19:46:15.645, jucheck.exe (PID: 12420, TID: 19660), AllUtils.cpp:124 (logit)]
+	INFO: SetJavaUpdateDwordKey was called with a NULL for key, so trying jucheck location
+[2020/08/04 19:46:15.679, jucheck.exe (PID: 12420, TID: 19660), Registry.cpp:403 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\BalloonVisible]=REG_SZ[Tue, 04 Aug 2020 22:46:15 GMT]
+[2020/08/04 19:46:15.693, jucheck.exe (PID: 12420, TID: 19660), Registry.cpp:403 (Registry::setString)]
+	TRACE: Set [HKLM32\SOFTWARE\JavaSoft\Java Update\Policy\jucheck\BalloonVisible]=REG_SZ[Tue, 04 Aug 2020 22:46:15 GMT]
